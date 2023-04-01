@@ -1,0 +1,70 @@
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge" />
+        <meta name = "viewport" content = "width=device-width, intitial-scale=1.0" />
+        <link rel = "stylesheet" href = "activities.css" />
+        <title>Yahir's Personal Website</title>
+    </head>
+    <body>
+        <header>
+            <div id = "brand"><img src = "logo.png"  class = "logo" width = "120" height = "80"></div>
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "activities.html">Activities</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id = "hamburger-icon" onclick = "toggleMobileMenu(this)">
+                <div class = "bar1"></div>
+                <div class = "bar2"></div>
+                <div class = "bar3"></div>
+                <ul class = "mobile-menu">
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "activities.html">Activities</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+  <div class = "slidershow middle">
+    <div class = "slides">
+      <input type = "radio" name = "rate" id = "r1" checked>
+      <input type = "radio" name = "rate" id = "r2">
+      <input type = "radio" name = "rate" id = "r3">
+      <input type = "radio" name = "rate" id = "r4">
+      <input type = "radio" name = "rate" id = "r5">
+
+      <div class = "slide s1">
+        <img src = "first.png" alt = "award">
+      </div>
+      <div class = "slide">
+        <img src = "second.png" alt = "shpe">
+      </div>
+      <div class = "slide">
+        <img src = "third.png" alt = "graduation">
+      </div>
+      <div class = "slide">
+        <img src = "fourth.png" alt = "work">
+      </div>
+      <div class = "slide">
+        <img src = "fifth.png" alt = "running">
+      </div>
+    </div>
+  </div>
+
+  <div class = "movement">
+    <label for = "r1" class = "bar"></label>
+    <label for = "r2" class = "bar"></label>
+    <label for = "r3" class = "bar"></label>
+    <label for = "r4" class = "bar"></label>
+    <label for = "r5" class = "bar"></label>
+  </div>
+
+  <script src = "script.js"></script>
+
+</body>
+</html>
