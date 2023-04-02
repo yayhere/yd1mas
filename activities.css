@@ -382,3 +382,10 @@ img.first {
         display: none;
     }
 }
+
+@media only screen and (max-width: 390px){
+    body {
+        width: 100%;
+        height: 175vh;
+    }
+}

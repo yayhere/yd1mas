@@ -259,8 +259,50 @@ button:hover {
         width: 100%;
         position: absolute;
         top: 50%;
-        transform: translateY(-4%);
+        transform: translateY(-3%);
         text-align: center;
         color: white;
     }
+
+    .content h1 {
+        font-size: 30px;
+        font-family: lemon;
+        margin-top: 80px;
+    }
+
+    .home {
+        animation-name: slide-downs;
+        animation-duration: 1.75s;
+    }
+    
+    @keyframes slide-downs {
+        from {
+            margin-top: -600px;
+        }
+        to {
+            margin-top: 60px;
+        }
+    }
+    
+     img.profile {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        animation-name: floating;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        height: 295.09px;
+        width: 236.36px;
+    }
+    
+    @keyframes floating {
+        from {
+            margin-top: 60px;
+        }
+        to {
+            margin-top: 85px;
+        }
+    }
+    
 }
