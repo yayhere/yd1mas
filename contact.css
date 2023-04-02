@@ -171,23 +171,23 @@ img.instagram {
     margin-left: 72.5px;
     margin-top: 40px;
     width: 51.2px;
-    height: 51.2x;
+    height: 51.2px;
 }
 
 img.linkedIn {
     float: left;
-    margin-left: 72.5px;
+    margin-left: 50px;
     margin-top: 40px;
-    width: 49.2px;
-    height: 49.2px;
+    width: 51.2px;
+    height: 51.2px;
 }
 
 img.resume {
-    float: right;
-    margin-right: 72.5px;
+    float: left;
+    margin-left: 50px;
     margin-top: 40px;
-    width: 47.2px; 
-    height: 47.2px;
+    width: 51.2px; 
+    height: 51.2px;
 }
 
 @media (max-width: 800px) {
@@ -243,15 +243,15 @@ img.resume {
         float: right;
         margin-right: 150px;
         margin-top: -345px;
-        width: 134px;
-        height: 134px;
+        width: 136px;
+        height: 136px;
     }
     
     img.resume {
         float: right;
         margin-right: 262.5px;
         margin-top: -150px;
-        width: 128px; 
-        height: 128px;
+        width: 136px; 
+        height: 136px;
     }
 }
