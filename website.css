@@ -259,7 +259,7 @@ button:hover {
         width: 100%;
         position: absolute;
         top: 50%;
-        transform: translateY(2%);
+        transform: translateY(9%);
         text-align: center;
         color: white;
     }
