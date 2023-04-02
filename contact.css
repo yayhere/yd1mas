@@ -12,6 +12,8 @@ html, body {
     padding: 0;
     overflow-y: hidden;
     overflow-x: hidden;
+    color: black;
+    background-color: black;
 }
 
 body {
@@ -20,7 +22,8 @@ body {
     background-image: url(background.png);
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
+    background-color: black;
 }
 
 header a {
