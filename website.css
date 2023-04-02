@@ -254,12 +254,12 @@ button:hover {
     }
 }
 
-@media only screen and (max-height: 844px) and (max-width: 390px) {
+@media only screen and (max-height: 820px) and (max-width: 390px) {
     .content {
         width: 100%;
         position: absolute;
         top: 50%;
-        transform: translateY(-1%);
+        transform: translateY(2%);
         text-align: center;
         color: white;
     }
