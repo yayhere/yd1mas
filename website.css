@@ -259,7 +259,7 @@ button:hover {
         width: 100%;
         position: absolute;
         top: 50%;
-        transform: translateY(9%);
+        transform: translateY(12%);
         text-align: center;
         color: white;
     }
@@ -312,4 +312,63 @@ button:hover {
         }
     }
     
+}
+
+@media only screen and (max-height: 2778px) and (max-width: 1284px) {
+
+    .home {
+        animation-name: slide-downs;
+        animation-duration: 1.75s;
+    }
+
+    @keyframes slide-downs {
+        from {
+            margin-top: -600px;
+        }
+        to {
+            margin-top: 75px;
+        }
+    }
+
+    img.profile {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        animation-name: floating;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes floating {
+        from {
+            margin-top: 75px;
+        }
+        to {
+            margin-top: 100px;
+        }
+    }
+
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(12.5%);
+        text-align: center;
+        color: white;
+    }
+
+    .content h1 {
+        font-size: 60px;
+        font-family: lemon;
+        margin-top: 80px;
+    }
+
+    .content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-weight: bold;
+    }
+
 }
