@@ -12,7 +12,7 @@ html, body {
     padding: 0;
     overflow-y: hidden;
     overflow-x: hidden;
-    color: black;
+    color: white;
     background-color: black;
 }
 
@@ -22,7 +22,7 @@ body {
     background-image: url(background.png);
     background-size: cover;
     background-position: center;
-    color: black;
+    color: white;
     background-color: black;
 }
 
