@@ -254,7 +254,7 @@ button:hover {
     }
 }
 
-@media only screen and (max-height: 844px) and (max-width: 390px) {
+@media only screen and (max-height: 2556px) and (max-width: 1179px) {
     .content {
         width: 100%;
         position: absolute;
