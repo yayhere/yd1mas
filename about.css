@@ -10,17 +10,16 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 
 body {
     width: 100%;
-    height: 100vh;
+    height: 127.5vh;
     background-image: url(background.png);
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
 }
 
 header a {
@@ -139,13 +138,12 @@ ul li:hover::after {
 
 /*Media Content*/
 img.box-shadow {
-    display: block;
     box-shadow: .75em .75em 1em black;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 339.13px;
-    width: 339.13px;
+    height: 301.44px;
+    width: 301.44px;
     margin-top: 100px;
 }
 
@@ -156,15 +154,29 @@ h1{
     margin-top: 20px;
     text-align: center;
 }
-p {
+
+.border {
+    background: rgba(82, 82, 82, 0.5);
+    height: 425px;
+    width: 350px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 15px;
+    position: relative;
+}
+
+.border p {
     color: white;
-    font-size: 14.5px;
+    font-size: 16px;
     text-align: center;
     text-justify: inter-word;
-    margin-top: 10px;
-    margin-right: 30px;
-    margin-left: 30px;
-    line-height: 20.5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 22px;
+    transform: translateY(3.5%);
+    position: relative;
 }
 
 @media (max-width: 800px) {
@@ -179,6 +191,23 @@ p {
 }
 
 @media (min-width: 800px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    body {
+        width: 100%;
+        height: 100vh;
+        background-image: url(background.png);
+        background-size: cover;
+        background-position: center;
+        color: black;
+    }
 
     /* Desktop Content */
 
@@ -189,14 +218,26 @@ p {
         margin-left: 550px;
         margin-top: -440px;
     }
-    p {
-        font-size: 22.5px;
-        text-align: left;
-        margin-left: 550px;
+
+    .border {
+        background: rgba(82, 82, 82, 0.5);
+        height: 365px;
+        width: 800px;
+        border-radius: 25px;
+        margin-left: 545px;
+        display: block;
+        margin-top: 15px;
+        position: relative;
+    }
+
+    .border p {
+        font-size: 18.75px;
+        margin-left: 25px;
+        margin-right: 25px;
         margin-top: 20px;
         line-height: 40px;
         text-align: left;
-        margin-right: 60px;
+        transform: translateY(6.5%);
     }
 
     img.box-shadow {
