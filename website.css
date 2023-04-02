@@ -253,14 +253,3 @@ button:hover {
         display: block;
     }
 }
-
-@media only screen and (max-width: 1170px) and (max-height: 2532px) {
-    .content {
-        width: 100%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-5%);
-        text-align: center;
-        color: white;
-    }
-}
